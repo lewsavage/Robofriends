@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload build directory
-          path: './build'
+          path: './build/'
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
